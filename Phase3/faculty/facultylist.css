@@ -15,6 +15,7 @@ body {
 }
 
 body main {
+    overflow: hidden;
     word-wrap: break-word;
     box-sizing: border-box;
     margin: 0% 5%;
@@ -23,4 +24,56 @@ body main {
     width: 90%;
     height: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+ul {
+	list-style-position: inside;
+}
+
+form {
+	display: flex
+}
+
+form input {
+	width: 90%;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.leftCol {
+    float: left;
+    margin-left: 5%;
+    width: 55%;
+    text-align: left;
+}
+
+.rightCol {
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+    text-align: right;
+}
+
+.sideCarousel {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+}
+
+.mainCarousel {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.border {
+    border: 1px solid #000;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 1%;
 }
