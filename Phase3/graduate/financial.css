@@ -24,3 +24,42 @@ body main {
     height: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
+table {
+    display: table;
+    border-collapse: collapse;
+    width: 90%;
+    height: 90%:;
+}
+tr {
+    border-style: solid;
+    border-width: 1px;
+}
+td {
+    text-align: center;
+}
+.award {
+    background-color: white;
+}
+.name {
+    background-color: #E9967A ;
+}
+.name:hover {
+    background-color: #c00;
+}
+.scholarshipsHead {
+    font-weight: bold;
+    background-color: #f33;
+}
+button {
+    height: 100%;
+    width: 100%;
+    
+}
+a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color:black;
+    text-decoration: none;
+}
