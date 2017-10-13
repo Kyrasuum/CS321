@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SIUE Chemistry Department</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <meta name="description" content="Chemistry at SIUE">
-  <meta name="keywords" content="Chemistry,SIUE">
-  <meta name="author" content="Team Porky">
-  <link rel="stylesheet" href="facultylist.css">
-  <BASE href="..">
-
-	<script type="text/javascript" src="faculty/carousel.js">
-	</script>
+	<title>SIUE Chemistry Department</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="description" content="Chemistry at SIUE">
+	<meta name="keywords" content="Chemistry,SIUE">
+	<meta name="author" content="Team Porky">
+	<link rel="stylesheet" href="facultylist.css">
+	<BASE href="..">
+	<script type="text/javascript" src="faculty/carousel.js"></script>
 </head>
 
 <body>
@@ -19,38 +17,7 @@
   <main>
   	<div class="centered"><h3>Faculty and Staff</h3></div><br>
   	<div class="centered">
-	  	<div class="leftCol">
-	  		<div class="border">
-		  		<h3>Picture of: John Doe</h3>
-		  		<h4>
-		  			Professor, Bio-Organic Chemistry<br>
-		  			Department of Chemistry
-		  		</h4><br>
-	  			<div class="centered">
-	  				About this Person:<br>
-	  				Office: SLW 3125 (map on <a href="contact.html">contact us</a>)<br>
-	  				Office Hours: MW 1-2pm<br>
-	  				Phone: (123) 456-7890(Office)<br>
-	  				Phone: (098) 765-4321(Lab)<br>
-	  				Email: jdoe@siue.edu<br>
-	  				<a href="http://siue.edu/johndoe">Personal Website</a><br>
-	  				<br>
-	  				<h4>Classes Taught</h4><br>
-	  				<ul>
-	  					<li><a href="">General Course 1</a></li>
-	  					<li><a href="">General Course 2</a></li>
-	  				</ul><br>
-	  				<br>
-	  				<div class="border">
-	  					<h4>Research Publications:</h4>
-	  					<ul>
-	  						<li><a href="">Doe, John., and Doe, Jane. "Research 1" Journal 1. Issue 1 (2017): 1-2. Print</a></li>
-	  					</ul>
-	  				</div>
-	  			</div>
-	  		</div>
-	  	</div>
-	  	<div class="rightCol">
+  		<div>
 	  		<div class="border">
 	  			<form>
 	  				<img src="images/filter.png" width="20px" height="20px">
@@ -58,34 +25,63 @@
 	  			</form>
 	  		</div>
 	  		<br>
+	  		<div class="border" id="carouselContainer">
+				  <div class="buttons">
+					<button id="prev">&uarr; Prev</button>
+					<button id="next">&darr; Next</button>
+				  </div>
+				  <div id="spinner"> 
+					Loading...
+				  </div>
+				  
+				  <div id="carousel">
+					<img src="images/Carol.jpg">
+					<img src="images/Brandi.jpg">
+					<img src="images/StudentSuccessCenter.jpg">
+					<img src="images/tutoring.jpg">
+					<img src="images/lab1.jpg">
+					<img src="images/lab2.jpg">
+					<img src="images/Carol.jpg">
+					<img src="images/Brandi.jpg">
+					<img src="images/StudentSuccessCenter.jpg">
+					<img src="images/tutoring.jpg">
+					<img src="images/lab1.jpg">
+					<img src="images/lab2.jpg">
+				  </div>
+	  		</div>
+	  	</div>
+	  	<div>
 	  		<div class="border">
-	  			<div class="centered">
-	  				<!-- <br>
-	  				<img src="images/NoProfilePic.jpg" class="sideCarousel"><h5>Department Head</h5><br>
-	  				<img src="images/NoProfilePic.jpg" class="mainCarousel"><h4>John Doe</h4><br>
-	  				<img src="images/NoProfilePic.jpg" class="sideCarousel"><h5>Jane Doe</h5>
-					  <br> -->
-					  <div class="buttons">
-						<button id="prev">&uarr; Prev</button>
-						<button id="next">&darr; Next</button>
-					  </div>
-					  <div id="spinner"> 
-						Loading...
-					  </div>
-					  
-					  <div id="carousel">
-						<img src="images/Carol.jpg">
-						<img src="images/Brandi.jpg">
-						<img src="images/StudentSuccessCenter.jpg">
-						<img src="images/tutoring.jpg">
-						<img src="images/lab1.jpg">
-						<img src="images/lab2.jpg">
-					  </div>
-					  
-					  <div class="buttons">
-						<button id="prev">&uarr; Prev</button>
-						<button id="next">&darr; Next</button>
-					  </div>
+	  			<div class="leftCol">
+			  		<h3>Picture of: John Doe</h3>
+			  		<h4>
+			  			Professor, Bio-Organic Chemistry<br>
+			  			Department of Chemistry
+			  		</h4><br>
+		  			<div class="centered">
+		  				About this Person:<br>
+		  				Office: SLW 3125 (map on <a href="contact.html">contact us</a>)<br>
+		  				Office Hours: MW 1-2pm<br>
+		  				Phone: (123) 456-7890(Office)<br>
+		  				Phone: (098) 765-4321(Lab)<br>
+		  				Email: jdoe@siue.edu<br>
+		  				<a href="http://siue.edu/johndoe">Personal Website</a><br>
+		  				<br>
+		  				<h4>Classes Taught</h4><br>
+		  				<ul>
+		  					<li><a href="">General Course 1</a></li>
+		  					<li><a href="">General Course 2</a></li>
+		  				</ul><br>
+		  				<br>
+		  			</div>
+	  			</div>
+	  			<div class="rightCol">
+	  				<div class="border">
+	  					<h4>Research Publications:</h4>
+	  					<ul>
+	  						<li><a href="">Doe, John., and Doe, Jane. "Research 1" Journal 1. Issue 1 (2017): 1-2. Print</a></li>
+	  					</ul>
+	  				</div>
 	  			</div>
 	  		</div>
 	  	</div>
