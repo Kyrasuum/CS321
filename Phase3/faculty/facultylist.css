@@ -74,7 +74,8 @@ form input {
 }
 
 .pictureFrame img{
-    height: 12vh;
+    height: 20vh;
+    position: relative;
 }
 
 #carouselContainer button {
@@ -94,19 +95,23 @@ form input {
 }
 
 #carouselWrapper {
+    padding-top: 0;
     position: relative;
     overflow: hidden;
     white-space: nowrap;
 }
 
 #carousel {
-    margin: 0px;
+    padding-top: 0;
     text-align: left;
     width: 100%;
+    height: 20vh;
     position: relative;
     visibility: hidden;
 }
 
 #carouselContainer {
     height: 20vh;
+    border: 1px solid #000;
+    overflow: hidden;
 }
