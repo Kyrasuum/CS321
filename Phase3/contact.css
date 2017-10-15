@@ -33,4 +33,23 @@ body main img {
     width: 60%; 
     display: block; 
     margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.left {
+    border-style:solid;
+    border-width: 1px;
+    background-color: lightsteelblue;
+    width: 20%;
+    float: left;
+}
+.right {
+    border-style:solid;
+    border-width: 1px;
+    background-color: lightsteelblue;
+    width: 20%;
+    float: right;
+}
+a {
+    text-decoration: none;
 }
