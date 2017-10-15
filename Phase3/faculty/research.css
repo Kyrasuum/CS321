@@ -37,6 +37,7 @@ body main {
 .topicHead {
     padding: 4%;
     font-weight: bold;
+    background-color: lightsteelblue;
 }
 .topic:hover {
     background-color: red;
@@ -52,4 +53,7 @@ table {
 td {
     border-style: solid;
     border-width: 1px;
+}
+.head{
+    background-color: lightsteelblue;
 }
