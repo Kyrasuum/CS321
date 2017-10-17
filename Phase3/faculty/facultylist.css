@@ -29,6 +29,7 @@ body main {
 
 ul {
 	list-style-position: inside;
+    background-color: #93bcdc;
 }
 
 form {
@@ -60,6 +61,7 @@ form input {
 }
 
 .border {
+    background-color: #93bcdc;
     border: 1px solid #000;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 1%;
