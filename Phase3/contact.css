@@ -18,12 +18,11 @@ body {
 body main {
     word-wrap: break-word;
     box-sizing: border-box;
-    margin: 0% 5%;
+    margin: auto;
     padding: 1% 1%;
     border: 0;
-    width: 90%;
+    width: 80%;
     height: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 body main section {
@@ -37,20 +36,72 @@ body main img {
     margin-left: 20%;
     margin-right: 20%;
 }
-.left {
-    border-style:solid;
-    border-width: 1px;
-    background-color: lightsteelblue;
-    width: 20%;
-    float: left;
+
+body main>* {
+    background-color: #93bcdc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }
-.right {
-    border-style:solid;
-    border-width: 1px;
-    background-color: lightsteelblue;
-    width: 20%;
+
+/*Vertical Navigation Bar styling start*/
+.vnavbar {
+    margin-top: 0.5%;
     float: right;
+    background-color: #f33;
+    font-family: Arial;
+    width: 20%;
+    height: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
 }
-a {
-    text-decoration: none;
+
+.vnavbar>.vdropdown {
+    display: block;
+    width: 100%;
+    height: 17.3vh;
+    min-height: 70px;
+    border-top: 1px solid #212e41;
+}
+
+.vnavbar>.vdropdown>.vdropbtn {
+    text-align: center;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+
+.vnavbar>.vdropdown>.vdropbtn>img {
+    width: 10%;
+    height: 17.5%;
+    margin: auto;
+}
+
+.vnavbar>.vdropdown:hover>.vdropbtn {
+    background-color: #c00;
+}
+
+.vnavbar>.vdropdown>.vdropdown-content {
+    display: none;
+    overflow: auto;
+    position: absolute;
+    background-color: #93bcdc;
+    min-width: 160px;
+    width: 62%;
+    height: 69.5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+    top: 45.75%;
+    right: 27%;
+}
+
+.vnavbar>.vdropdown:hover>.vdropdown-content {
+    display: block;
+}
+/*Navigation Bar styling end*/
+/* Styling for text box from nav bar */
+.vnavbar>.vdropdown>.vdropdown-content>* {
+    padding: 3% 3%;
 }
