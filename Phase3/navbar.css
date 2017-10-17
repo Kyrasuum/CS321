@@ -1,3 +1,21 @@
+/*
+Red: ed1b24;
+Dark blue: 212e41;
+Light blue: 93bcdc;
+
+Equipment: Sam;
+Student Services: Justin;
+Academic Standards: Justin;
+Cirriculum Requirements: Justin;
+Courses Page: Phill;
+Program Info grad: Sam;
+Program Info undergrad: Sam;
+Thesis Info: Sam;
+Research Project grad: Phill;
+Senior Assignment: Phill;
+Graduation: Phill;
+Style: Justin;
+*/
 header {
     background: url(images/chemBanner.jpg);
     min-width:660px;
@@ -44,11 +62,15 @@ header {
     border: 0px;
     margin: 0;
     text-decoration: none;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    background-color: #212e41;
 }
 
 .navbar .imgContainer {
     padding: 2.5px 5px 2.5px 5px;
-    border-right: 1px solid #444;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
 }
 
 .navbar a img {
@@ -60,7 +82,8 @@ header {
 .dropdown {
     float: left;
     overflow: hidden;
-    border-right: 1px solid #444;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
 .dropdown .dropbtn {
@@ -71,32 +94,37 @@ header {
     padding: 5px 10px;
     border: 0px;
     margin: 0;
-    background-color: inherit;
+    background-color: #212e41;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #ed1b24;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ddd;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    padding: 2px;
 }
 
 .dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
+    border-right: 0px;
+    border-top: 2px solid #ddd;
     text-decoration: none;
     display: block;
+    background-color: #93bcdc;
+    color: #fff;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #ed1b24;
 }
 
 .dropdown:hover .dropdown-content {

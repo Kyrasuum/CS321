@@ -23,7 +23,7 @@ header {
 /*Vertical Navigation Bar styling start*/
 .vnavbar {
     margin-top: 2px;
-    background-color: #333;
+    background-color: #212e41;
     font-family: Arial;
     width: 20%;
     height: 87.2vh;
@@ -33,11 +33,11 @@ header {
 .vnavbar>.vdropdown-category {
     padding-top: 5px;
     border-bottom: 2px solid #fff;
-    background-color: #333;
+    background-color: #212e41;
 }
 
 .vnavbar>.vdropdown-category>h3 {
-    color: white;
+    color: #93bcdc;
 }
 
 .vnavbar>.vdropdown-category>h3+.vdropdown {
@@ -46,7 +46,7 @@ header {
 
 .vnavbar>.vdropdown-category>h5 {
     margin-bottom: 5px;
-    color: white;
+    color: #93bcdc;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown {
@@ -54,7 +54,7 @@ header {
     margin: 0% 0% 0% 10%;
     width: 90%;
     border-top: 1px solid #fff;
-    background-color: #f33;
+    background-color: #ed1b24;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown>.vdropbtn {
@@ -76,7 +76,7 @@ header {
 }
 
 .vnavbar>.vdropdown-category>.vdropdown:hover>.vdropbtn {
-    background-color: #c00;
+    background-color: #212e41;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
