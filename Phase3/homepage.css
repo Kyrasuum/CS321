@@ -23,11 +23,25 @@ body main {
     border: 0;
     width: 90%;
     height: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 body main img {
     width: 40%; 
     display: block; 
     margin: auto;
+    margin-bottom: 1%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+body main>section {
+    margin-bottom: 1%;
+    background-color: #93bcdc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+body main>div {
+    margin-bottom: 1%;
+    padding: 0.5% 0.5%;
+    background-color: #93bcdc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }

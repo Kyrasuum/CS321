@@ -29,7 +29,7 @@ ul {
 /* Month header */
 .month {
     padding: 10px 15px;
-    background: red;
+    background: #ed1b24;
     text-align: center;
 }
 
@@ -83,6 +83,6 @@ ul {
 /* Highlight the "current" day */
 .days li .active {
     padding: 5px;
-    background: #f22;
-    color: white !important
+    background: #ed1b24;
+    color: white
 }
