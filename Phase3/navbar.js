@@ -56,7 +56,7 @@ document.write('\
 				<a href="graduate/courses.html" target="_parent">Courses</a>\
 				<a href="graduate/financial.html" target="_parent">Financial Aid</a>\
 				<a href="graduate/resources.html" target="_parent">Chemistry Resources</a>\
-				<a href="graduate/forms.html" target="_parent">Student Forms</a>\
+				<a href="http://www.siue.edu/graduate/graduate-student-forms.shtml#graduateStudentForms" target="_blank">Student Forms</a>\
 				<a href="graduate/thesis.html" target="_parent">Thesis Info</a>\
 				<a href="graduate/research.html" target="_parent">Research Projects</a>\
 			</div>\
