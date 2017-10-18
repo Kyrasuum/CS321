@@ -27,7 +27,6 @@ header {
     font-family: Arial;
     width: 20%;
     height: 87.2vh;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .vnavbar>.vdropdown-category {
@@ -53,7 +52,7 @@ header {
     margin: 0% 0% 0% 10%;
     width: 90%;
     border-top: 1px solid #fff;
-    background-color: #f33;
+    background-color: #ed1b24;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown>.vdropbtn {
@@ -75,16 +74,15 @@ header {
 }
 
 .vnavbar>.vdropdown-category>.vdropdown:hover>.vdropbtn {
-    background-color: #c00;
+    background-color: #212e41;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
     display: none;
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     top: 110px;
     left: 20%;
@@ -143,6 +141,15 @@ header {
     overflow: auto;
 }
 
+.border>a {
+    color:black;
+    text-decoration: none;
+}
+
+.border>a:hover {
+    color:white;
+}
+
 .classCRN{
     float: left;
     margin-left: 2.5%;
@@ -159,4 +166,68 @@ header {
     width: 70%;
     text-align: left;
     font-size: 80%;
+}
+
+/*Modal popup display*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow: auto;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background-color: #93bcdc;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  overflow: auto;
+  font-size: 30px;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup a {
+    color:black;
+    text-decoration: none;
+}
+
+.popup a:hover {
+    color:white;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
 }
