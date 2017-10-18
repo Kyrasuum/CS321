@@ -52,7 +52,7 @@ tr.even{
 }
 .day {
 	 background-color: #f33;
-	 color: white;
+	 color: black;
 	 border-color: black;
 	 padding:1%;
 }
