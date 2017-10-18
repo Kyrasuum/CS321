@@ -18,10 +18,48 @@ body {
 body main {
     word-wrap: break-word;
     box-sizing: border-box;
-    margin: 0% 5%;
+    margin: auto;
     padding: 1% 1%;
     border: 0;
-    width: 90%;
+    width: 80%;
     height: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.centCol {
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    overflow: auto;
+    background-color: #93bcdc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.centCol:nth-child(0) { 
+    margin-bottom: 5px;
+}
+
+.centCol:nth-child(1) { 
+    margin-bottom: 5px;
+}
+
+ul {
+    margin: 5px;
+    background: #212e41;
+    list-style: none;
+    max-height: 200px;
+    min-width: 270px;
+    overflow: auto;
+}
+
+ul>li {
+    padding: 5px;
+    border: 1px solid #93bcdc;
+    border-bottom: 0px;
+    background: #212e41;
+    color: white;
+    text-decoration: none;
+}
+ul>li:last-child {
+    border-bottom: 1px solid #93bcdc;
 }
