@@ -6,7 +6,7 @@ body main section {
 .events {
     border: 1px solid black;
     width: 100%-270px;
-    height: 190px;
+    height: 195px;
     min-width: 270px;
     padding: 5px;
     overflow: auto;

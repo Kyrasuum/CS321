@@ -23,23 +23,39 @@ header {
 }
 /*Vertical Navigation Bar styling start*/
 .vnavbar {
-    float: right;
-    background-color: #f33;
+    margin-top: 2px;
     font-family: Arial;
     width: 20%;
-    height: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 80vh;
 }
 
-.vnavbar>.vdropdown {
+.vnavbar>.vdropdown-category {
+    padding-top: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+.vnavbar>.vdropdown-category>h3 {
+    color: white;
+}
+
+.vnavbar>.vdropdown-category>h3+.vdropdown {
+    margin-top: 5px;
+}
+
+.vnavbar>.vdropdown-category>h5 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown {
     display: block;
-    width: 100%;
-    height: 17.3vh;
-    min-height: 70px;
+    margin: 0% 0% 0% 10%;
+    width: 90%;
     border-top: 1px solid #fff;
+    background-color: #ed1b24;
 }
 
-.vnavbar>.vdropdown>.vdropbtn {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropbtn {
     text-align: center;
     font-size: 16px;    
     border: none;
@@ -48,74 +64,84 @@ header {
     padding: 5px 10px;
     width: 100%;
     height: 100%;
-    background-color: inherit;
+    background: none;
 }
 
-.vnavbar>.vdropdown>.vdropbtn>img {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropbtn>img {
     width: 10%;
     height: 17.5%;
     margin: auto;
 }
 
-.vnavbar>.vdropdown:hover>.vdropbtn {
-    background-color: #c00;
+.vnavbar>.vdropdown-category>.vdropdown:hover {
+    background: none;
 }
 
-.vnavbar>.vdropdown>.vdropdown-content {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
     display: none;
     overflow: auto;
     position: absolute;
-    background-color: #93bcdc;
+    color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     z-index: 1;
     top: 110px;
-    left: 10%;
-    right: 20%;
+    left: 20%;
+    right: 0%;
     bottom: 5px;
 }
 
-.vnavbar>.vdropdown:hover>.vdropdown-content {
+.vnavbar>.vdropdown-category>.vdropdown:hover>.vdropdown-content {
     display: block;
 }
 /*Navigation Bar styling end*/
 /* Styling for text box from nav bar */
-.vnavbar>.vdropdown>.vdropdown-content>* {
-    padding: 0% 3%;
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content>* {
+    padding: 3%;
 }
-.vnavbar>.vdropdown>.vdropdown-content>p {
+
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content>p {
     padding: 0% 0% 3% 3%;
     word-wrap: break-word;
     font-size: 90%;
 }
 
-.vnavbar>.vdropdown>.vdropdown-content>p * {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content>p * {
     padding: 0;
     word-wrap: break-word;
     font-size: 90%;
 }
 
-.vnavbar>.vdropdown>.vdropdown-content>h3 {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content>h3 {
     padding: 3% 1%;
 }
 
-.vnavbar>.vdropdown>.vdropdown-content>h4 {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content>h4 {
     padding: 0% 2%;
 }
 
-.vnavbar>.vdropdown>.vdropdown-content>ul {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content>ul {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     list-style: none;
     overflow: auto;
     height: 30%;
     width: 50%;
+    padding: 0.5% 3%;
+    background-color: #ed1b24;
 }
-.vnavbar>.vdropdown>.vdropdown-content>ul>li {
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content>ul>li {
     padding: 0.5% 3%;
 }
 
 .centered {
     margin: auto;
     text-align: center;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content a {
+    color: #ed1b24;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content img {
+    width: 50%;
 }

@@ -28,7 +28,6 @@ document.write('\
 				<i class="fa fa-caret-down"></i>\
 			</button>\
 			<div class="dropdown-content">\
-				<a href="contact.html" target="_parent">Map</a>\
 				<a href="department/equipment.html" target="_parent">Equipment</a>\
 				<a href="department/clubs.html" target="_parent">Clubs</a>\
 				<a href="department/lab.html" target="_parent">Lab Policy</a>\
@@ -55,7 +54,6 @@ document.write('\
 			<div class="dropdown-content">\
 				<a href="graduate/courses.html" target="_parent">Courses</a>\
 				<a href="graduate/financial.html" target="_parent">Financial Aid</a>\
-				<a href="graduate/resources.html" target="_parent">Chemistry Resources</a>\
 				<a href="http://www.siue.edu/graduate/graduate-student-forms.shtml#graduateStudentForms" target="_blank">Student Forms</a>\
 				<a href="graduate/thesis.html" target="_parent">Thesis Info</a>\
 				<a href="graduate/research.html" target="_parent">Research Projects</a>\
@@ -69,10 +67,19 @@ document.write('\
 			<div class="dropdown-content">\
 				<a href="undergrad/courses.html" target="_parent">Courses</a>\
 				<a href="undergrad/financial.html" target="_parent">Financial Aid</a>\
-				<a href="undergrad/resources.html" target="_parent">Chemistry Resources</a>\
-				<a href="undergrad/tutoring.html" target="_parent">Tutoring</a>\
 				<a href="undergrad/senior.html" target="_parent">Senior Assignment</a>\
 				<a href="undergrad/graduation.html" target="_parent">Graduation</a>\
+			</div>\
+		</div> \
+		<div class="dropdown">\
+			<button class="dropbtn">Resources\
+				<img src="images/dropdown.png" alt="" height="10" width="10">\
+				<i class="fa fa-caret-down"></i>\
+			</button>\
+			<div class="dropdown-content">\
+				<a href="contact.html" target="_parent">Map</a>\
+				<a href="resources/tutoring.html" target="_parent">Tutoring</a>\
+				<a href="resources/resources.html" target="_parent">Chemistry Resources</a>\
 			</div>\
 		</div> \
 		<a href="contact.html" target="_parent">Contact Us</a>\

@@ -23,7 +23,18 @@ body main {
     border: 0;
     width: 90%;
     height: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+body main>section {
+    margin: auto;
+    width:80%;
+    margin-bottom: 1%;
+    background-color: #93bcdc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+body>main a {
+    color: #ed1b24;
 }
 
 ul {

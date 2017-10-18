@@ -2,20 +2,10 @@
 Red: ed1b24;
 Dark blue: 212e41;
 Light blue: 93bcdc;
-
-Equipment: Sam;
-Academic Standards: Justin;
-Cirriculum Requirements: Justin;
-Courses Page: Phill;
-Thesis Info: Sam;
-Research Project grad: Phill;
-Senior Assignment: Phill;
-Graduation: Phill;
-Style: Justin;
 */
 header {
     background: url(images/chemBanner.jpg);
-    min-width:670px;
+    min-width:780px;
 }
 /*Navigation Bar styling start*/
 .navbar h2 {

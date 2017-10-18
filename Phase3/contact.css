@@ -37,19 +37,12 @@ body main img {
     margin-right: 20%;
 }
 
-body main>* {
-    background-color: #93bcdc;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-}
-
 /*Vertical Navigation Bar styling start*/
 .vnavbar {
     margin-top: 2px;
-    background-color: #212e41;
     font-family: Arial;
     width: 20%;
     height: 87.2vh;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .vnavbar>.vdropdown-category {
@@ -58,7 +51,7 @@ body main>* {
 }
 
 .vnavbar>.vdropdown-category>h3 {
-    color: #93bcdc;
+    color: white;
 }
 
 .vnavbar>.vdropdown-category>h3+.vdropdown {
@@ -67,7 +60,7 @@ body main>* {
 
 .vnavbar>.vdropdown-category>h5 {
     margin-bottom: 5px;
-    color: #93bcdc;
+    color: white;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown {
@@ -87,7 +80,7 @@ body main>* {
     padding: 5px 10px;
     width: 100%;
     height: 100%;
-    background-color: inherit;
+    background: none;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown>.vdropbtn>img {
@@ -96,8 +89,8 @@ body main>* {
     margin: auto;
 }
 
-.vnavbar>.vdropdown-category>.vdropdown:hover>.vdropbtn {
-    background-color: #212e41;
+.vnavbar>.vdropdown-category>.vdropdown:hover {
+    background: none;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
