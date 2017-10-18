@@ -42,7 +42,7 @@ body main>div {
 .topicHead {
     padding: 4%;
     font-weight: bold;
-    background-color: lightsteelblue;
+    	background-color:#93bcdc;
 }
 .topic:hover {
     background-color: red;
@@ -60,5 +60,5 @@ td {
     border-width: 1px;
 }
 .head{
-    background-color: lightsteelblue;
+    	background-color:#93bcdc;
 }
