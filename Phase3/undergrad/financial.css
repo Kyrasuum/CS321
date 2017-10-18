@@ -43,14 +43,23 @@ body main td {
     background-color: white;
 }
 .name {
-    background-color: #E9967A ;
+    background-color:#93bcdc;
+}
+.name2 {
+    background: #212e41;
+    color: white;
 }
 .name:hover {
-    background-color: #c00;
+    background-color: #f33;
+    font-color: black;
+}
+.name2:hover {
+    background-color: #f33;
+    font-color: black;
 }
 .scholarshipsHead {
     font-weight: bold;
-    background-color: lightsteelblue;
+    background-color:#93bcdc;
 }
 .name a {
     display: block;
@@ -59,3 +68,11 @@ body main td {
     color:black;
     text-decoration: none;
 }
+.name2 a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
