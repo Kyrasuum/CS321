@@ -27,6 +27,7 @@ body main {
 
 body main section {
     text-align: center;
+    padding-bottom: 5px;
 }
 
 body main img {
@@ -87,7 +88,6 @@ body main>* {
     display: none;
     overflow: auto;
     position: absolute;
-    background-color: #93bcdc;
     min-width: 160px;
     width: 62%;
     height: 69.5%;
