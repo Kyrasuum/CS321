@@ -83,11 +83,8 @@ header {
 .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
     display: none;
     overflow: hidden;
-    position: fixed;
-<<<<<<< HEAD
+    position: absolute;
     color: white;
-=======
->>>>>>> c1f9f25d7094ef2714676ab93c39f18cb56a9eae
     min-width: 160px;
     z-index: 1;
     top: 110px;

@@ -64,10 +64,10 @@ header {
 .vnavbar>.vdropdown>.vdropdown-content {
     display: none;
     overflow: auto;
-    position: fixed;
+    position: absolute;
     background-color: #93bcdc;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     z-index: 1;
     top: 110px;
     left: 10%;

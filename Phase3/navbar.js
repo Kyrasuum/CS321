@@ -32,7 +32,6 @@ document.write('\
 				<a href="department/equipment.html" target="_parent">Equipment</a>\
 				<a href="department/clubs.html" target="_parent">Clubs</a>\
 				<a href="department/lab.html" target="_parent">Lab Policy</a>\
-				<a href="department/studentServices.html" target="_parent">Student Services</a>\
 				<a href="department/standards.html" target="_parent">Academic Standards</a>\
 				<a href="department/opportunities.html" target="_parent">Opportunities in Chemistry</a>\
 			</div>\
@@ -55,12 +54,11 @@ document.write('\
 			</button>\
 			<div class="dropdown-content">\
 				<a href="graduate/courses.html" target="_parent">Courses</a>\
+				<a href="graduate/financial.html" target="_parent">Financial Aid</a>\
+				<a href="graduate/resources.html" target="_parent">Chemistry Resources</a>\
 				<a href="graduate/forms.html" target="_parent">Student Forms</a>\
 				<a href="graduate/thesis.html" target="_parent">Thesis Info</a>\
-				<a href="graduate/program.html" target="_parent">Program Info</a>\
-				<a href="graduate/financial.html" target="_parent">Financial Aid</a>\
 				<a href="graduate/research.html" target="_parent">Research Projects</a>\
-				<a href="graduate/resources.html" target="_parent">Chemistry Resources</a>\
 			</div>\
 		</div> \
 		<div class="dropdown">\
@@ -70,12 +68,11 @@ document.write('\
 			</button>\
 			<div class="dropdown-content">\
 				<a href="undergrad/courses.html" target="_parent">Courses</a>\
-				<a href="undergrad/program.html" target="_parent">Program Info</a>\
-				<a href="undergrad/tutoring.html" target="_parent">Tutoring</a>\
 				<a href="undergrad/financial.html" target="_parent">Financial Aid</a>\
+				<a href="undergrad/resources.html" target="_parent">Chemistry Resources</a>\
+				<a href="undergrad/tutoring.html" target="_parent">Tutoring</a>\
 				<a href="undergrad/senior.html" target="_parent">Senior Assignment</a>\
 				<a href="undergrad/graduation.html" target="_parent">Graduation</a>\
-				<a href="undergrad/resources.html" target="_parent">Chemistry Resources</a>\
 			</div>\
 		</div> \
 		<a href="contact.html" target="_parent">Contact Us</a>\
