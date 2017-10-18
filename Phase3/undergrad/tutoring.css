@@ -24,19 +24,35 @@ body main {
     width: 90%;
     height: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color:#93bcdc;
+    text-align: center;
 }
 table {
 	border-collapse: collapse;
-	width: 100%;
+	width: 70%;
+	margin-left:15%;
 }
 td {
 	border-style: solid;
-	border-width: 1px;
-	background-color: #E9967A ;
+    border-color:black;
+    border-width: 1px;
 }
 .time {
 	background-color: white ;
+	color:black;
+}
+tr.odd {
+	background-color:#212e41;
+    color: white;
+}
+tr.even{
+	background-color:#93bcdc;
+	
+
 }
 .day {
-	background-color: lightsteelblue ;
+	 background-color: #f33;
+	 color: white;
+	 border-color: black;
+	 padding:1%;
 }
