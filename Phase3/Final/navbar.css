@@ -1,7 +1,43 @@
 /*
+Colors:
 Red: ed1b24;
 Dark blue: 212e41;
 Light blue: 93bcdc;
+
+? means might not be implemented
+
+Justin:
+Get science building picture for background
+Make navbar college of arts and science standout
+Make navbar icons properly sized
+homepage: caption under top picture;
+
+clubs: better picture, possible facebook intergration;
+lab policy: play around with font sizes;
+standards: play around with font sizes, link to course catalog?;
+opportunites: bullshit concrete jobs in each tab;
+
+Course catalog?: a list of all courses offered;
+
+Phillip:
+advisors: pull advisors out of pop-up window, make advisors pictures on left column, everything else on right.  Link to each advisors page on starfish;
+faculty list: remove emereti, make pictures bigger.  Make selected image larger;
+research: play around with making text stand out;
+
+Grad/Undergrad Courses page: make semester expand on hover instead of popup;
+Cirric Req.: format it similar to wireframe with x amount of hours for y requirement...;
+
+Sam:
+Actual course page: make page specific to each teacher and able to switch between sections.  Include picture of teacher and other filler.(one css);
+
+Financial Aid: touch up the css so the dropdown matches(use one css file for both);
+Senior Assignment: link to chem 499's specific course page to see requirements and more detail.  Possible picture?;
+Graduation: Possibly adding a picture to break it up.;
+
+Map: Move text above picture.  Make pictures the same size;
+Contact Us: possibly make into a popup?;
+Tutoring: make the times include 'am' and 'pm'.  Include contact information for Tutoring resource center.;
+Resources: remove the part of text saying 'graduate' next to resources.  Make tutoring link to our page;
 */
 header {
     background: url(images/chemBanner.jpg);
