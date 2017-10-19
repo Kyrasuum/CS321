@@ -84,14 +84,25 @@ h3 {
     margin: 5px 0;
 }
 
-.pictureFrame{
+.pictureFrame {
     display: inline-block;
     cursor: pointer;
 }
 
-.pictureFrame img{
+.pictureFrame img {
     height: 20vh;
     position: relative;
+}
+
+.pictureFrame img:hover, .pictureFrame:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
 }
 
 #carouselContainer button {
@@ -111,23 +122,23 @@ h3 {
 }
 
 #carouselWrapper {
-    padding-top: 0;
+    padding-top: 2.5vh;
     position: relative;
     overflow: hidden;
     white-space: nowrap;
+    height: 25vh;
 }
 
 #carousel {
-    padding-top: 0;
     text-align: left;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     position: relative;
     visibility: hidden;
 }
 
 #carouselContainer {
-    height: 20vh;
+    height: 25vh;
     border: 1px solid #000;
     overflow: hidden;
     background-color: #93bcdc;
@@ -139,6 +150,7 @@ h3 {
     background: none;
     position: absolute;
     left: 20%;
+    top: 40%;
     font-size: 500%;
     z-index: 2;
     cursor: pointer;
@@ -150,6 +162,7 @@ h3 {
     background: none;
     position: absolute;
     right: 20%;
+    top: 40%;
     font-size: 500%;
     z-index: 2;
     cursor: pointer;
