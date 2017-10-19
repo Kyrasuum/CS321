@@ -193,8 +193,8 @@
     //let it be visible
     carousel.style.visibility = 'visible';
 
-    var next = document.getElementbyId('next');
-    var prev = document.getElementbyId('prev');
+    var next = document.getElementById('next');
+    var prev = document.getElementById('prev');
 
     next.onclick = function(){
       var width = parseFloat(window.getComputedStyle(document.getElementById('carouselContainer')).getPropertyValue('width'), 10),
@@ -224,7 +224,30 @@
     };
 
     prev.onclick = function(){
-      panLeft(1); 
+      var width = parseFloat(window.getComputedStyle(document.getElementById('carouselContainer')).getPropertyValue('width'), 10), 
+      end = width/2, begin = end, amount = 1;
+      //change image order first.. makes math easier
+      for(i = 0; i < amount; i++){
+        rotateForward();
+      }
+      //we always want to be centered at the end
+      for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2); i++) {
+        end -= Carousel.carousel.children[i].offsetWidth;
+      }
+      //only need half the width for center image
+      end -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2)].offsetWidth)/2;
+
+      //start animation offset the amount we are moving
+      for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2) + amount; i++) {
+        begin -= Carousel.carousel.children[i].offsetWidth;
+      }
+      //only need half the width for center image
+      begin -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2) + amount].offsetWidth)/2;
+
+      //finally input our variables and play the animation
+      animate(begin, end, function () {
+        Carousel.carousel.style.left = end + 'px';
+      });
     };
   };
 

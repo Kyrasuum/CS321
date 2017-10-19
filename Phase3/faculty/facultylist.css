@@ -86,6 +86,7 @@ h3 {
 
 .pictureFrame{
     display: inline-block;
+    cursor: pointer;
 }
 
 .pictureFrame img{
@@ -140,6 +141,7 @@ h3 {
     left: 20%;
     font-size: 500%;
     z-index: 2;
+    cursor: pointer;
 }
 
 /* Next button */
@@ -150,4 +152,5 @@ h3 {
     right: 20%;
     font-size: 500%;
     z-index: 2;
+    cursor: pointer;
 }

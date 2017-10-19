@@ -33,32 +33,41 @@ body main>div {
 .topics {
     float: right;
     width: 30%;
-    
 }
+
 .topic {
     padding: 3%;
     background-color: #FB8080;
 }
+
 .topicHead {
     padding: 4%;
     font-weight: bold;
-    	background-color:#93bcdc;
+    background-color:#93bcdc;
 }
-.topic:hover {
-    background-color: red;
-}
-.researchList {
 
+.topic:hover {
+    background-color: #ed1b24;
+}
+
+.researchList {
     width:70%;
-    background-color: white;
-    }
+    color: white;
+}
+
+.researchList a {
+    color: #ed1b24;
+}
+
 table {
     
 }
+
 td {
     border-style: solid;
     border-width: 1px;
 }
+
 .head{
     	background-color:#93bcdc;
 }
