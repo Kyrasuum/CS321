@@ -180,6 +180,8 @@ header {
   visibility: hidden;
   opacity: 0;
   overflow: auto;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 .overlay:target {
@@ -230,4 +232,12 @@ header {
   .popup{
     width: 70%;
   }
+}
+
+a {
+    color:white;
+    text-decoration: underline;
+}
+a:hover {
+    color:#ed1b24;
 }
