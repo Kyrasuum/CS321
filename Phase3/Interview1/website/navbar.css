@@ -1,0 +1,105 @@
+header {
+    background: url(images/chemBanner.jpg);
+    min-width:660px;
+}
+/*Navigation Bar styling start*/
+.navbar h2 {
+    float: left;
+    color: red;
+    padding: 0.25% 0px 0px 0.5%;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar h3 {
+    float: right;
+    color: white;
+    padding: 0px 0.5% 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar h5 {
+    float: right;
+    color: white;
+    padding: 0px 0.5% 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border: 0px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar .imgContainer {
+    padding: 2.5px 5px 2.5px 5px;
+    border-right: 1px solid #444;
+}
+
+.navbar a img {
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #444;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+    border: 0px;
+    margin: 0;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Navigation Bar styling end*/

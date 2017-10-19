@@ -1,0 +1,29 @@
+Interviewer: Sam
+Observer: Justin
+
+Interview 1 notes:
+
+make homescreen pop and stand out.  There needs to be more color.
+It needs more clarity on faculty list page that the carousel selects different people.
+The filter could use an option to filter by department or 'niche'.
+Advisors page needs more colors.
+Interviewee went to faculty list first when looking for tutoring.  Including tutors as faculty?
+Tutoring page tables needs some alteration or seperation to make it easier to find info.  Maybe different colors by name.
+Tutoring page could use some narrowing of information so that there is more spread vertically rather than horizontally.
+Financial aid page could be converted from a link into a dropdown message displaying information about the awards and scholarships.
+Courses page color scheme is pretty harsh.  Maybe a softening similar to tutoring colors might be preferable.
+Less white overall is prefereable on the pages.
+Opportunities in Chemistry page could benefit from the text and image being centered.
+A background image is prefered to eliminate the white on the pages.
+Research page limits the topics to existing topics which is nice instead of anything where you have to think of the keyword yourself.
+The map on contact us could be smaller.  It can be a little too much in your face.
+Resources page needs more color.
+Pages feels like they are being elongated just to fill the screen.  Include some text in order to fill the screen.
+Change navbar image or change font color/button color.
+
+Thoughts:
+For advisors page add 'last name' to the "Advisor for:A-K"
+Add uniformity in style with 3 colors
+Add a background image/color for every page
+Nav buttons could be shrunk
+Make the map navigation a bar like the others

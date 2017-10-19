@@ -1,0 +1,88 @@
+body main section {
+    border: 1px solid black;
+}
+
+.events {
+    border: 1px solid black;
+    width: 100%-270px;
+    height: 190px;
+    min-width: 270px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.events ul {
+    border: 1px solid black;
+}
+
+/* Calender containing object */
+.calender {
+    float: right;
+    width: 270px;
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Month header */
+.month {
+    padding: 10px 15px;
+    background: red;
+    text-align: center;
+}
+
+/* Month list */
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 2%;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 2%;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    background: #eee;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #f22;
+    color: white !important
+}

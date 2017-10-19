@@ -1,0 +1,59 @@
+Advisor Page
+-Since there are only two advisors we maybe dont need a link to their
+descriptions we have the space on the on the main page.
+
+Faculty List
+-Don't need the faculty emereti
+
+Class Info
+-We could have a different page for each class depending on who's teaching.
+
+Financial Aid
+-Should have a filter possibly by grad/undergrad.
+
+Grad Research
+-Shouldn't have white text on light blue background
+-Shoul be more clear that links are links.
+-less empty space
+
+Senior assignment
+-Should have a link to the chem 499 class page
+
+Contact/map 
+-He thinks they should be seperate pages
+
+Tutoring
+-have am/pm
+-instead of a link to the tutoring resource page put the info 
+from that on our page
+
+Chemistry resources
+-Links should open in new tab
+
+Home
+-caption the pic of the science building/chemistry department
+-background pic should stand out more
+-more description for News/events
+
+Equipment
+-should be in alphabetical order
+-instead of link we should have text box with descriptioin and pic
+-maybe include which classes use each piece of equipment
+
+Chemistry club
+-include news feed in sidebar
+
+Lab policy
+-text too small
+-should fill more of page
+
+Academic Standards
+-Link to cource catalog
+
+Opertunities in chemistry
+-Side bar should be buttons
+-bigger font
+-Needs more 
+-maybe add a link or more info
+
+Maybe include some page or info about alumni
