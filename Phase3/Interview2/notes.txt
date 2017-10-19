@@ -1,0 +1,18 @@
+Interviewer: Justin
+Observer: Phillip
+
+Interview 2:
+Chemistry intro could be made bigger.  The news/events is overkill in size.
+Interviewer thinks Intro page feels chemistry specific so dont change it.
+Equipment isnt obvious that it would be under department info.  Maybe rethinking its placement would be good?
+The carousel still isnt obvious in its function.  Maybe some arrows or some interactive change?
+The faculty list page has an intense amount of blue.  Breaking it up would help the user.
+More clarity in presenting the information that this is a sample cirriculum and any choices of classes would be really nice.
+Cirriculum requirements should be setup similarly to sample cirriculum and replace it as the default page for course info.
+A general resources tab might be helpful containing equipment, tutoring, and resources
+Tutoring page has a large amount of blue, breaking it up would help
+The text itself is too compressed, add some seperation
+Senior Assignment page could use some pictures, some dropdown to hide the text at start, and some numbering on the items.
+The inconsistency in the pictures for opportunities in chemistry is annoying.  The side navbar could be made smaller.  The text should be broken up to be more like captions on a picture in their own boxes.
+The advising page could use a clear link to setting up an appointment.
+Overall try to break up the blue and add clarity that links are infact links.

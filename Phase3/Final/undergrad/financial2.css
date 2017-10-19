@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    overflow: auto;
+    min-width:660px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/darkBlue.png") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+h1{
+	margin-left:20%;
+	color:white;
+}
+body main {
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0% 5%;
+    padding: 1% 1%;
+    border: 0;
+    width: 90%;
+    height: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-family: Arial;
+}
+
+body main table {
+    display: table;
+    border-collapse: collapse;
+    width: 60%;
+    height: 90%:;
+    margin-left: 20%;
+
+}
+body main tr {
+    border-style: solid;
+    border-width: 1px;
+}
+body main td {
+    text-align: center;
+}
+.description {
+	background-color: lightgrey;
+	border-color:black;
+	width: 100%;
+}
+.asd {
+	/*display: block;*/
+}
+.textBox {
+	width:90%;
+	margin-left: 5%;
+}
+.award {
+    background-color: white;
+}
+.name {
+    background-color:#93bcdc;
+}
+.name2 {
+    background: #212e41;
+    color: white;
+}
+.name3 {
+	background-color:#ed1b24;
+	color:white;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.name:hover {
+    background-color: #f33;
+    font-color: black;
+}
+.name2:hover {
+    background-color: #f33;
+    font-color: black;
+}
+.scholarshipsHead {
+    font-weight: bold;
+    background-color:#93bcdc;
+}
+.name a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color:black;
+    text-decoration: none;
+}
+.name2 a 
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color:white;
+    text-decoration: none;
+}
+
+.name3 a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color:white;
+    text-decoration: none;
+}
+

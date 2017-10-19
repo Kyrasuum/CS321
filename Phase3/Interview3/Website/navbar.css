@@ -1,0 +1,120 @@
+/*
+Red: ed1b24;
+Dark blue: 212e41;
+Light blue: 93bcdc;
+*/
+header {
+    background: url(images/chemBanner.jpg);
+    min-width:780px;
+}
+/*Navigation Bar styling start*/
+.navbar h2 {
+    float: left;
+    color: red;
+    padding: 0.25% 0px 0px 0.5%;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar h3 {
+    float: right;
+    color: white;
+    padding: 0px 0.5% 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar h5 {
+    float: right;
+    color: white;
+    padding: 0px 0.5% 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border: 0px;
+    margin: 0;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    background-color: #212e41;
+}
+
+.navbar .imgContainer {
+    padding: 2.5px 5px 2.5px 5px;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.navbar a img {
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 0;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+    border: 0px;
+    margin: 0;
+    background-color: #212e41;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ed1b24;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 2px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    border-right: 0px;
+    border-top: 2px solid #ddd;
+    text-decoration: none;
+    display: block;
+    background-color: #93bcdc;
+    color: #fff;
+}
+
+.dropdown-content a:hover {
+    background-color: #ed1b24;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Navigation Bar styling end*/

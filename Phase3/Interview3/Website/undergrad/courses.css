@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    overflow: auto;
+    min-width:660px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/darkBlue.png") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+body main {
+    word-wrap: break-word;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    min-width:660px;
+}
+/*Vertical Navigation Bar styling start*/
+.vnavbar {
+    margin-top: 2px;
+    font-family: Arial;
+    width: 20%;
+    height: 87.2vh;
+}
+
+.vnavbar>.vdropdown-category {
+    padding-top: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+.vnavbar>.vdropdown-category>h3 {
+    color: white;
+}
+
+.vnavbar>.vdropdown-category>h3+.vdropdown {
+    margin-top: 5px;
+}
+
+.vnavbar>.vdropdown-category>h5 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown {
+    display: block;
+    margin: 0% 0% 0% 10%;
+    width: 90%;
+    border-top: 1px solid #fff;
+    background-color: #ed1b24;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown>.vdropbtn {
+    text-align: center;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown>.vdropbtn>img {
+    width: 10%;
+    height: 17.5%;
+    margin: auto;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown:hover>.vdropbtn {
+    background-color: #212e41;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    color: white;
+    min-width: 160px;
+    z-index: 1;
+    top: 110px;
+    left: 20%;
+    right: 10%;
+    bottom: 5px;
+}
+
+.vnavbar>.vdropdown-category>.vdropdown:hover>.vdropdown-content {
+    display: block;
+}
+/*Navigation Bar styling end*/
+/* Styling for text box from nav bar */
+.vnavbar>.vdropdown-category>.vdropdown:hover>.vdropdown-content>p {
+    margin-bottom: 2%;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
+
+.leftCol {
+    float: left;
+    margin-left: 5%;
+    width: 42.5%;
+    text-align: center;
+}
+
+.rightCol {
+    float: right;
+    margin-right: 5%;
+    width: 42.5%;
+    text-align: center;
+}
+
+.border {
+    background-color: #93bcdc;
+    border: 1px solid white;
+    color: black;
+}
+
+.vdropdown-content>div>.border+div {
+    margin-top: 5px;
+}
+
+.vdropdown-content>div>.border~div {
+    margin-bottom: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.vdropdown-content>div>h4 {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.vdropdown-content>div>h4~.border {
+    overflow: auto;
+}
+
+.border>a {
+    color:black;
+    text-decoration: none;
+}
+
+.border>a:hover {
+    color:white;
+}
+
+.classCRN{
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    width: 25%;
+    text-align: left;
+    font-size: 80%;
+}
+
+.className{
+    float: left;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    width: 70%;
+    text-align: left;
+    font-size: 80%;
+}
+
+/*Modal popup display*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow: auto;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background-color: #93bcdc;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  overflow: auto;
+  font-size: 30px;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup a {
+    color:black;
+    text-decoration: none;
+}
+
+.popup a:hover {
+    color:white;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+a {
+    color:white;
+    text-decoration: underline;
+}
+a:hover {
+    color:#ed1b24;
+}
