@@ -61,6 +61,15 @@ header {
     vertical-align: bottom;
 }
 
+header h2, header h4, header h5 {
+    display: inline-block;
+    color: red;
+    background:rgba(33,46,65,0.5);
+    text-align: left;
+    padding: 1%;
+}
+
+
 .navbar a {
     float: left;
     font-size: 16px;

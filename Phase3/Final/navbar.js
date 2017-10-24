@@ -69,6 +69,15 @@ document.write('\
 		</div> \
 		<a href="contact.html" target="_parent">Contact Us</a>\
 	</div>\
+	<h2>\
+		SIUE -> \
+	</h2>\
+	<h4>\
+		College of Arts and Sciences -> \
+	</h4>\
+	<h5>\
+		Chemistry Department\
+	</h5>\
 </header>\
 <div id="Sidenav" class="sidenav">\
   	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>\
@@ -136,7 +145,7 @@ document.write('\
 	</div>\
 </div> \
 </div>\
-<div class="SidenavButton" onclick="openNav()">&#9776; Menu</div>\
+<div class="SidenavButton" onclick="openNav()">&#9776; SIUE->Chemistry Department</div>\
 ');
 
 function openNav() {
