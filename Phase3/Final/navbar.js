@@ -4,21 +4,6 @@ document.write('\
 <link rel="stylesheet" href="navbar.css">\
 <header>\
 	<div class="navbar">\
-		<h2>\
-			SIUE\
-		</h2>\
-	</div>\
-	<div class="navbar">\
-		<h3>\
-			College of Arts and Sciences\
-		</h3>\
-	</div>\
-	<div class="navbar">\
-		<h5>\
-			Chemistry Department\
-		</h5>\
-	</div>\
-	<div class="navbar">\
 		<a href="homepage.html" target="_parent" class = "imgContainer">\
 			<img src="images/home.png" alt="" height="20" width="20">\
 		</a>\
@@ -161,3 +146,18 @@ function openNav() {
 function closeNav() {
     document.getElementById("Sidenav").style.width = "0";
 }
+
+function openVNav() {
+    document.getElementById("VSideNav").style.left = "0";
+}
+
+function closeVNav() {
+    document.getElementById("VSideNav").style.left = "-500px";
+}
+
+window.onresize = function(){
+	if (window.innerWidth > 780){
+		openVNav();
+		closeNav()
+	}
+};
