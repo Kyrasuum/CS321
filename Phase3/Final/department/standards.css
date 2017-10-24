@@ -43,3 +43,15 @@ body main {
     margin-right: 5%;
     width: 43%;
 }
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+ul {
+    font-size: 16px;
+}
