@@ -3,24 +3,38 @@ body main section {
     background-color: #93bcdc;
 }
 
+.NewsEvents {
+  display: table;
+  width: 100%;
+}
+
+.NewsEventsTitle {
+    position: absolute;
+}
+
 .events {
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
     border: 1px solid black;
-    width: 100%-270px;
-    height: 195px;
-    min-width: 270px;
     padding: 5px;
-    overflow: auto;
+}
+
+.events li {
+    border: 1px solid black;
 }
 
 .events ul {
     border: 1px solid black;
+    overflow: auto;
+    height: 170px;
 }
 
 /* Calender containing object */
 .calender {
-    float: right;
+    display: table-cell;
+    vertical-align: middle;
     width: 270px;
-    height: 200px;
 }
 
 ul {
@@ -86,4 +100,12 @@ ul {
     padding: 5px;
     background: #ed1b24;
     color: white
+}
+
+@media only screen and (max-width: 780px) {
+  .events, .calender { 
+      display: block;
+      width: 100%;
+      height: auto;
+  }
 }

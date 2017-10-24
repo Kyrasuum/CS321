@@ -27,6 +27,8 @@ research: play around with making text stand out;
 Grad/Undergrad Courses page: make semester expand on hover instead of popup;
 Cirric Req.: format it similar to wireframe with x amount of hours for y requirement...;
 
+Make mobile navbar
+
 Sam:
 Actual course page: make page specific to each teacher and able to switch between sections.  Include picture of teacher and other filler.(one css);
 
@@ -237,5 +239,8 @@ header {
 
     .SidenavButton {
         display: block;
+    }
+    .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
+        top: 0px;
     }
 }

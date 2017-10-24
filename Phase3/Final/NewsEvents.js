@@ -2,8 +2,8 @@
 //this is used only as a workaround to import html to html
 document.write('\
 <link rel="stylesheet" href="NewsEvents.css">\
-<section>\
-	<h3>News / Events</h3>\
+<section class= "NewsEvents">\
+	<h3 class="NewsEventsTitle">News / Events</h3>\
 	<div class="calender">\
 		<div class="month">\
 		  <ul>\
@@ -60,16 +60,38 @@ document.write('\
 	</div>\
 	<div class="events">\
 		<h3>January 10th</h3>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
-		<ul>Meeting at the MUC at 9:00 am</ul>\
+		<ul>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+			<li>\
+				Meeting at the MUC at 9:00 am\
+			</li>\
+		</ul>\
 	</div>\
 </section>\
 ');
