@@ -41,8 +41,8 @@ Resources: remove the part of text saying 'graduate' next to resources.  Make tu
 */
 header {
     background: url(images/chemBanner.jpg);
-    min-width:780px;
 }
+
 /*Navigation Bar styling start*/
 .navbar h2 {
     float: left;
@@ -154,3 +154,88 @@ header {
     display: block;
 }
 /*Navigation Bar styling end*/
+
+/*Sideways Navigation Bar styling start*/
+.SidenavButton {
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+
+.SidenavButton:hover {
+    color: #ed1b24;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav>.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav>.closebtn:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.sidenav>.dropdown {
+    float: none;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #fff;
+    border-right: 0px;
+}
+
+.sidenav>.dropdown:last-child {
+    border-bottom: 1px solid #fff;
+}
+
+.sidenav>.dropdown>.dropbtn {
+    width: 100%;
+    text-align: center;
+}
+
+.sidenav>.imgContainer {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav>.imgContainer:hover {
+    color: #ed1b24;
+    cursor: pointer;
+}
+/*Sidways Navigation Bar styling end*/
+
+@media only screen and (max-width: 780px) {
+    .navbar { 
+        display: none;
+    }
+
+    .SidenavButton {
+        display: block;
+    }
+}

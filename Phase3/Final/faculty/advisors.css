@@ -40,6 +40,8 @@ body>main a {
 .leftCol {
     float: left;
     width: 45%;
+    height: 60vh;
+    display: table;
     text-align: center;
     background-color: #93bcdc;
 }
@@ -47,17 +49,21 @@ body>main a {
 .rightCol {
     float: right;
     width: 45%;
+    height: 60vh;
+    display: table;
     text-align: center;
     background-color: #93bcdc;
 }
 
 .advisorImg {
-    width: 50vh;
-    height: 50vh;
+    height: 30vh;
     object-fit: contain;
 }
 
 .border {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
     border: 1px solid #000;
     padding: 1%;
 }

@@ -94,6 +94,7 @@
     }
     //only need half the width for center image
     end -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2)].offsetWidth)/2;
+    end -=  0.1 * width;
 
     //start animation offset the amount we are moving
     for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2) + amount; i++) {
@@ -101,6 +102,7 @@
     }
     //only need half the width for center image
     begin -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2) + amount].offsetWidth)/2;
+    begin -=  0.1 * width;
 
     //finally input our variables and play the animation
     animate(begin, end, function () {
@@ -123,6 +125,7 @@
     }
     //only need half the width for center image
     end -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2)].offsetWidth)/2;
+    end -=  0.1 * width;
 
     //start animation offset the amount we are moving
     for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2) - amount; i++) {
@@ -130,6 +133,7 @@
     }
     //only need half the width for center image
     begin -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2) - amount].offsetWidth)/2;
+    begin -=  0.1 * width;
 
     //finally input our variables and play the animation
     animate(begin, end, function () {
@@ -144,6 +148,7 @@
     document.getElementById('spinner').style.display = 'none';
     var carousel = Carousel.carousel = document.getElementById('carousel'),
       container = Carousel.container = document.getElementById('carouselContainer'),
+      width = parseFloat(window.getComputedStyle(container).getPropertyValue('width'), 10),
       images = carousel.getElementsByTagName('img'),
       numImages = images.length,
       length = images.length,
@@ -171,23 +176,17 @@
       rotateForward();
     }
 
-    //trick to make sure images down wrap around to next line
-    var wrapper = Carousel.wrapper = document.createElement('div');
-    wrapper.id = 'carouselWrapper';
-    wrapper.style.width = carousel.offsetWidth + 'px';
-    wrapper.style.height = carousel.offsetHeight + 'px';
-    carousel.parentNode.insertBefore(wrapper, carousel);
-    wrapper.appendChild(carousel);
-
     //initialize our current index and offset
     Carousel.index = Math.floor(numImages/2);
     var width = parseFloat(window.getComputedStyle(container).getPropertyValue('width'), 10), 
       left = width/2;
 
+    //calculation for offset
     for (var i = 0; i < middle; i++) {
-      left -= Carousel.carousel.children[i].offsetWidth;
+      left -= parseFloat(window.getComputedStyle(images[i]).getPropertyValue('width'), 10);
     }
-    left -= (Carousel.carousel.children[middle].offsetWidth)/2;
+    left -= parseFloat(window.getComputedStyle(images[middle]).getPropertyValue('width'), 10) / 2;
+    left -=  0.1 * width;
     carousel.style.left = left + 'px';
 
     //let it be visible
@@ -209,6 +208,7 @@
       }
       //only need half the width for center image
       end -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2)].offsetWidth)/2;
+      end -=  0.1 * width;
 
       //start animation offset the amount we are moving
       for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2) - amount; i++) {
@@ -216,6 +216,7 @@
       }
       //only need half the width for center image
       begin -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2) - amount].offsetWidth)/2;
+      begin -=  0.1 * width;
 
       //finally input our variables and play the animation
       animate(begin, end, function () {
@@ -236,6 +237,7 @@
       }
       //only need half the width for center image
       end -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2)].offsetWidth)/2;
+      end -=  0.1 * width;
 
       //start animation offset the amount we are moving
       for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2) + amount; i++) {
@@ -243,6 +245,7 @@
       }
       //only need half the width for center image
       begin -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2) + amount].offsetWidth)/2;
+      begin -=  0.1 * width;
 
       //finally input our variables and play the animation
       animate(begin, end, function () {
@@ -266,15 +269,14 @@
 
     //calculation for offset
     for (var i = 0; i < Math.floor(numImages/2); i++) {
-      left -= images[i].offsetWidth;
+      left -= parseFloat(window.getComputedStyle(images[i]).getPropertyValue('width'), 10);
     }
-    left -= (carousel.children[Math.floor(numImages/2)].offsetWidth)/2;
+    left -= parseFloat(window.getComputedStyle(images[Math.floor(numImages/2)]).getPropertyValue('width'), 10) / 2;
+    left -=  0.1 * width;
     carousel.style.left = left + 'px';
 
     //updating sizes
+    width = width *0.8;
     carousel.style.width = width + 'px';
     carousel.style.height = height + 'px';
-
-    wrapper.style.width = width + 'px';
-    wrapper.style.height = height + 'px';
   };

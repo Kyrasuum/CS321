@@ -6,7 +6,6 @@
 
 body {
     overflow: auto;
-    min-width:660px;
     width: 100%;
     height: 100%;
     background: url("../images/darkBlue.png") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
@@ -82,11 +81,11 @@ header {
     overflow: auto;
     position: absolute;
     color: white;
-    min-width: 160px;
     z-index: 1;
+    margin-left: 20%;
+    width: 75%;
+    height: auto;
     top: 110px;
-    left: 20%;
-    right: 0%;
     bottom: 5px;
 }
 
@@ -133,15 +132,15 @@ header {
     padding: 0.5% 3%;
 }
 
-.centered {
-    margin: auto;
-    text-align: center;
-}
-
 .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content a {
     color: #ed1b24;
 }
 
 .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content img {
     width: 50%;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
 }
