@@ -167,6 +167,8 @@ body main {
 
 .table-cell {
     display: table-cell;
+    border: 1px solid white;
+    padding: 0.5%;
 }
 
 .semester:hover {
@@ -180,22 +182,8 @@ body main {
     transform: scale(1.2);
 }
 
-.classCRN{
-    float: left;
-    margin-left: 2.5%;
-    margin-bottom: 2.5%;
-    width: 25%;
-    text-align: left;
-    font-size: 80%;
-}
-
-.className{
-    float: left;
-    margin-right: 2.5%;
-    margin-bottom: 2.5%;
-    width: 70%;
-    text-align: left;
-    font-size: 80%;
+.cirriculum {
+    padding: 3%;
 }
 
 a {
