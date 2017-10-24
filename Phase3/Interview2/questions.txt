@@ -1,0 +1,21 @@
+Interview 2
+Questions
+Map
+	Try to find room number 3005 in the Science building. Was finding the room self explanatory or should the map be easier to understand?
+
+Equipment
+	Try to find the different types of Spectrometer used by the department and see if you can find more information about the Bruker EMXPlus X-Band EPR Spectrometer. Should the links be more clearly labeled?
+
+Faculty List
+	Try and find contact information for Thomas Holovics. Do you feel like the way to select faculty is intuitive or should it be better presented?
+	Is the contact information text easy to read and understand? If not what should be changed?
+
+Undergrad Courses
+	Go to the undergraduate courses. In a bachelor of Science in Chemistry try and find more information about a specific class. Is it easy to navigate to the class specifics? How could we change it to make it more intuitive?
+
+Tutoring
+	If you wanted to see when they are tutoring for Chem 131 where would you go?
+	Is the tutoring page easy or difficult to read and understand?
+
+Senior Assignment
+	Try to find more information on the senior assignment. Is this page difficult or easy to read? If it is difficult what should we add/remove to make it easier?
