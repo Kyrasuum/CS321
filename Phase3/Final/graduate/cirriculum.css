@@ -83,6 +83,7 @@ body main {
     color: white;
     z-index: 1;
     margin-left: 20%;
+    margin-top: 2%;
     width: 77.5%;
     height: auto;
     top: 110px;
@@ -152,13 +153,13 @@ body main {
 }
 
 .table {
-    width: 100%;
-    padding-left: 2.5%;
-    padding-bottom: 2.5%;
     text-align: left;
-    font-size: 80%;
-    display: table;
-    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: #93bcdc;
+    border: 1px solid white;
+    margin-bottom: 2%;
 }
 
 .table-row {
@@ -192,6 +193,13 @@ a {
     text-decoration: underline;
 }
 a:hover {
+    color:#ed1b24;
+}
+
+.table-row a {
+    color: black;
+}
+.table-row a:hover {
     color:#ed1b24;
 }
 
