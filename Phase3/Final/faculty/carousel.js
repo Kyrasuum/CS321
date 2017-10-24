@@ -66,6 +66,18 @@
         images[i].style.opacity = tran;
         images[i].opacity = tran;
       }
+
+      //update transparency for each image
+      for (var i = 0; i < images.length; i ++){
+        var curr = images[i].size,
+          tarr = (1 - Math.abs(i - middle)/middle*0.5)*1.1,
+          delta = tarr - curr,
+          size = curr + (t < 1 ? delta / 2 * Math.pow(t, 3) :
+            delta / 2 * (Math.pow(t - 2, 3) + 2));
+        images[i].style.transform = 'scale(' + size + ')';
+        images[i].size = size;
+      }
+
     }, 1000 / 60);
   }
 
@@ -158,8 +170,10 @@
     for (var i = 0; i < numImages; ++i) {
       var image = images[i],
           frame = document.createElement('div'),
-          tran = image.style.opacity = image.opacity = 1 - 2*Math.abs(i - middle)/middle;
+          tran = image.style.opacity = image.opacity = 1 - 2*Math.abs(i - middle)/middle,
+          size = image.size = (1 - Math.abs(i - middle)/middle*0.5)*1.1;
 
+      image.style.transform = 'scale(' + size + ')';
       frame.className = 'pictureFrame';
       carousel.insertBefore(frame, image);
       frame.appendChild(image);
