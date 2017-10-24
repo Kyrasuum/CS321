@@ -35,6 +35,7 @@ header {
 
 .vnavbar>.vdropdown-category>h3 {
     color: white;
+    font-size: 100%;
 }
 
 .vnavbar>.vdropdown-category>h3+.vdropdown {
