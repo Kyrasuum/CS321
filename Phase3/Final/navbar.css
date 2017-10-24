@@ -160,7 +160,6 @@ header {
 /*Sideways Navigation Bar styling start*/
 .SidenavButton {
     background-color: black;
-    width: 22.5%;
     display: none;
     font-size: 30px;
     color: white;
@@ -238,11 +237,16 @@ header {
     .navbar { 
         display: none;
     }
-
     .SidenavButton {
         display: block;
     }
+    .vnavbar {
+        width: calc(23% + 100px);
+        min-width: 100px;
+    }
     .vnavbar>.vdropdown-category>.vdropdown>.vdropdown-content {
-        top: 0px;
+        top: 50px;
+        margin-left: calc(20% + 100px);
+        width: calc(77.5% - 110px);
     }
 }
