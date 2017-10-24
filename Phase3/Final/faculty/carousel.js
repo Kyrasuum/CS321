@@ -83,12 +83,32 @@
 
   //attempts panning to the inputted index
   function pan(index) {
+    var next = document.getElementById('next');
+    var prev = document.getElementById('prev');
+    for (var i = 0; i < Carousel.carousel.children.length; ++i) {
+      var frame = Carousel.carousel.children[i];
+
+      frame.enabled = false;
+    }
+    prev.enabled = false;
+    next.enabled = false;
     if (index < Math.floor(Carousel.carousel.children.length/2)){
       panLeft(index);
     }
     if (index > Math.floor(Carousel.carousel.children.length/2)){
       panRight(index);
     }
+    window.setTimeout(function() {
+      var next = document.getElementById('next');
+      var prev = document.getElementById('prev');
+      for (var i = 0; i < Carousel.carousel.children.length; ++i) {
+        var frame = Carousel.carousel.children[i];
+        frame.enabled = true;
+      }
+      prev.enabled = true;
+      next.enabled = true;
+    }, 1000)
+    
   }
 
   //pan's the carouse to the right to inputted index
@@ -175,13 +195,16 @@
 
       image.style.transform = 'scale(' + size + ')';
       frame.className = 'pictureFrame';
+      frame.enabled = true;
       carousel.insertBefore(frame, image);
       frame.appendChild(image);
 
       frame.addEventListener("click", function(e) {
         var arr = Array.from(Carousel.carousel.children),
-          index = arr.indexOf(this)
-        pan(index);
+          index = arr.indexOf(this);
+        if (this.enabled){
+          pan(index);
+        }
       }, false);
     }
 
@@ -208,63 +231,28 @@
 
     var next = document.getElementById('next');
     var prev = document.getElementById('prev');
+    prev.enabled = true;
+    next.enabled = true;
 
     next.onclick = function(){
-      var width = parseFloat(window.getComputedStyle(document.getElementById('carouselContainer')).getPropertyValue('width'), 10),
-      end = width/2, begin = end, amount = 1;
-      //change image order first.. makes math easier
-      for(i = 0; i < amount; i++){
-        rotateBackward();
-      }
-      //we always want to be centered at the end
-      for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2); i++) {
-        end -= Carousel.carousel.children[i].offsetWidth;
-      }
-      //only need half the width for center image
-      end -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2)].offsetWidth)/2;
-      end -=  0.1 * width;
+      if (this.enabled){
+        var images = carousel.getElementsByTagName('img'),
+        numImages = images.length,
+        length = images.length,
+        middle = Math.floor(length/2);
 
-      //start animation offset the amount we are moving
-      for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2) - amount; i++) {
-        begin -= Carousel.carousel.children[i].offsetWidth;
+        pan( middle + 1);
       }
-      //only need half the width for center image
-      begin -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2) - amount].offsetWidth)/2;
-      begin -=  0.1 * width;
-
-      //finally input our variables and play the animation
-      animate(begin, end, function () {
-        Carousel.carousel.style.left = end + 'px';
-      });
     };
 
     prev.onclick = function(){
-      var width = parseFloat(window.getComputedStyle(document.getElementById('carouselContainer')).getPropertyValue('width'), 10), 
-      end = width/2, begin = end, amount = 1;
-      //change image order first.. makes math easier
-      for(i = 0; i < amount; i++){
-        rotateForward();
-      }
-      //we always want to be centered at the end
-      for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2); i++) {
-        end -= Carousel.carousel.children[i].offsetWidth;
-      }
-      //only need half the width for center image
-      end -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2)].offsetWidth)/2;
-      end -=  0.1 * width;
+      if (this.enabled){
+        var images = carousel.getElementsByTagName('img'),
+        length = images.length,
+        middle = Math.floor(length/2);
 
-      //start animation offset the amount we are moving
-      for (var i = 0; i < Math.floor(Carousel.carousel.children.length/2) + amount; i++) {
-        begin -= Carousel.carousel.children[i].offsetWidth;
+        pan( middle - 1);
       }
-      //only need half the width for center image
-      begin -= (Carousel.carousel.children[Math.floor(Carousel.carousel.children.length/2) + amount].offsetWidth)/2;
-      begin -=  0.1 * width;
-
-      //finally input our variables and play the animation
-      animate(begin, end, function () {
-        Carousel.carousel.style.left = end + 'px';
-      });
     };
   };
 
