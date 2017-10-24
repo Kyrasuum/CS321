@@ -47,27 +47,36 @@ header {
 
 /*Navigation Bar styling start*/
 .navbar h2 {
+    font-size: 30px;
     float: left;
-    color: red;
+    color: #ed1b24;
     padding: 0.25% 0px 0px 0.5%;
     border: 0px;
     margin: 0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 }
 
 .navbar h3 {
+    font-size: 24px;
     float: right;
     color: white;
     padding: 0px 0.5% 0px 0px;
     border: 0px;
     margin: 0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 }
 
 .navbar h5 {
+    font-size: 20px;
     float: right;
     color: white;
     padding: 0px 0.5% 0px 0px;
     border: 0px;
     margin: 0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 }
 
 .navbar {
