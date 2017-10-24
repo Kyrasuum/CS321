@@ -9,7 +9,8 @@ body main section {
 }
 
 .NewsEventsTitle {
-    position: absolute;
+    text-align: center;
+    color: white;
 }
 
 .events {

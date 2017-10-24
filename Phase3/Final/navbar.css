@@ -159,6 +159,8 @@ header {
 
 /*Sideways Navigation Bar styling start*/
 .SidenavButton {
+    background-color: black;
+    width: 22.5%;
     display: none;
     font-size: 30px;
     color: white;

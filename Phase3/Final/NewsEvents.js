@@ -2,8 +2,8 @@
 //this is used only as a workaround to import html to html
 document.write('\
 <link rel="stylesheet" href="NewsEvents.css">\
-<section class= "NewsEvents">\
 	<h3 class="NewsEventsTitle">News / Events</h3>\
+<section class= "NewsEvents">\
 	<div class="calender">\
 		<div class="month">\
 		  <ul>\
