@@ -1,0 +1,41 @@
+Phase 03
+Interview 01
+Interviewer:sam smyth
+Observer:phillip lorentz
+
+Questions
+1.Where would you go to find information on a specific teacher?
+
+2.Now try and get to another faculty member's information.
+
+3.Was the image carousel a good way of selecting a teacher?
+
+4.Are there any filters besides name we should include for the faculty list?
+
+5.Can you find the deadline for the Oustanding Student in Chemistry Award?
+
+6.Do you like that our page links to the siue description on the award or should we just put the information on our site?
+
+7.Is there any other information about the awards that we should include?
+
+8.Can you find the information about the chemistry advisors?
+
+9.Is there any other information that should be included on this page?
+
+10.Can you find the tutoring schedule?
+
+11. Is there a better way we can display this information?
+
+12. Can you go the the course catalog?
+
+13. which color style do you like bettter, this page or the tutoring page, or neither?
+
+14.Do you think the nav bar is easy enough to read?
+
+15.Can you go to the page on chemisty resources?
+
+16. what do you think of the colors on this page?
+
+17. can you go to the page with the map?
+
+18 what do you think of the buttons used to swich which floor of the science building is shown?
